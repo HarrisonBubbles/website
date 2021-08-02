@@ -23,6 +23,7 @@ h2 {
     font-size: 30px;
     padding-left: 50px;
     padding-top: 55px;
+    margin-right: 50px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -59,6 +60,7 @@ nav li {
 
 li {
     margin-top: 10px;
+    margin-right: 50px;
     font-size: 15px;
     font-weight: 300;
 }
