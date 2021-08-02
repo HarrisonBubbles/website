@@ -6,12 +6,12 @@ body {
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 
     margin: 0;
-    background: linear-gradient(0deg, #c6a6fc, #FFCCCC);
+    background: linear-gradient(30deg, #c6a6fc, #FFCCCC);
 }
 
 h1 {
     color: white;
-    font-size: 50;
+    font-size: 5vw;
     font-weight: 500;
     text-align: center;
     margin-top: 175px;
@@ -20,7 +20,7 @@ h1 {
 h2 {
     color: rgb(48, 48, 48);
     font-weight: 800;
-    font-size: 30px;
+    font-size: 3vw;
     padding-left: 50px;
     padding-top: 55px;
     margin-right: 50px;
@@ -61,7 +61,7 @@ nav li {
 li {
     margin-top: 10px;
     margin-right: 50px;
-    font-size: 15px;
+    font-size: 1.5vw;
     font-weight: 300;
 }
 
@@ -97,13 +97,13 @@ a:hover {
 }
 
 .sub {
-    font-size: 15px;
+    font-size: 1.5vw;
     font-weight: 300;
 }
 
 .text {
     margin-right: 50px;
-    font-size: 20px;
+    font-size: 1.7vw;
     font-weight: 300;
 }
   
