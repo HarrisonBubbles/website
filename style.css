@@ -1,6 +1,11 @@
-body {
+@font-face {
     font-family: 'Inter';
     src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
+    font-style: normal;
+}
+
+body {
+    font-family: 'Inter';
     font-weight: 400;
     font-style: normal;
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -9,13 +14,8 @@ body {
     background: linear-gradient(30deg, #c6a6fc, #FFCCCC);
 }
 
-@font-face {
-    font-family: 'Sans-serif';
-    src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
-    font-style: normal;
-}
-
 h1 {
+    font-family:Arial, Helvetica, sans-serif;
     color: white;
     font-size: 5vw;
     font-weight: 500;
@@ -24,6 +24,7 @@ h1 {
 }
 
 h2 {
+    font-family:Arial, Helvetica, sans-serif;
     color: rgb(48, 48, 48);
     font-weight: 800;
     font-size: 3vw;
@@ -35,6 +36,7 @@ h2 {
 }
 
 h3 {
+    font-family:Arial, Helvetica, sans-serif;
     color: rgb(48, 48, 48);
     font-weight: 500;
     font-size: 20px;
@@ -44,6 +46,7 @@ h3 {
 }
 
 #navbar {
+    font-family:Arial, Helvetica, sans-serif;
     z-index: 1;
     position: fixed;
     top: 0px;
@@ -53,18 +56,20 @@ h3 {
   }
 
 nav ul {
-  margin: 0px;
-  padding: 10px 0px 10px 15px;
+    font-family:Arial, Helvetica, sans-serif;  
+    margin: 0px;
+    padding: 10px 0px 10px 15px;
 }
 
 nav li {
-  display: inline;
-  margin-right: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline;
+    margin-right: 20px;
 }
 
 
-
 li {
+    font-family:Arial, Helvetica, sans-serif;
     margin-top: 10px;
     margin-right: 50px;
     font-size: 1.5vw;
@@ -72,6 +77,7 @@ li {
 }
 
 a {
+    font-family:Arial, Helvetica, sans-serif;
     padding: 2px;
     border-radius: 3px;
     transition: background-color .3s ease-in-out;
@@ -79,11 +85,13 @@ a {
 }
 
 a:hover {
+    font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(233, 233, 233);
 }
 
 
 .bio {
+    font-family:Arial, Helvetica, sans-serif;
     border-radius: 10px;
     margin-top: 175;
     margin-left: 50px;
@@ -93,6 +101,7 @@ a:hover {
 }
 
 .biopic {
+    font-family:Arial, Helvetica, sans-serif;
     position: absolute;
     border-color: white;
     border-width: 5px;
@@ -103,11 +112,13 @@ a:hover {
 }
 
 .sub {
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
     font-weight: 300;
 }
 
 .text {
+    font-family:Arial, Helvetica, sans-serif;
     margin-right: 50px;
     font-size: 1.7vw;
     font-weight: 300;
