@@ -1,4 +1,8 @@
 body {
+    font-family: 'Inter', 'Sans-serif';
+    src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 
     margin: 0;
@@ -13,8 +17,6 @@ body {
 }
 
 h1 {
-    font-family: 'Inter';
-    src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
     color: white;
     font-size: 5vw;
     font-weight: 500;
@@ -23,8 +25,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Inter';
-    src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
     color: rgb(48, 48, 48);
     font-weight: 800;
     font-size: 3vw;
@@ -36,8 +36,6 @@ h2 {
 }
 
 h3 {
-    font-family: 'Inter';
-    src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
     color: rgb(48, 48, 48);
     font-weight: 500;
     font-size: 20px;
@@ -47,8 +45,6 @@ h3 {
 }
 
 #navbar {
-    font-family: 'Inter';
-    src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
     z-index: 1;
     position: fixed;
     top: 0px;
