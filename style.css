@@ -1,12 +1,15 @@
 body {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 
     margin: 0;
     background: linear-gradient(30deg, #c6a6fc, #FFCCCC);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1 {
