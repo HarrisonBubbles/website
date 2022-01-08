@@ -1,8 +1,4 @@
-@font-face {
-    font-family: 'Inter';
-    src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
-    font-style: normal; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap');
 
 html {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
