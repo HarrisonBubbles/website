@@ -14,7 +14,7 @@ body {
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 
     margin: 0;
-    background: linear-gradient(30deg, #c6a6fc, #FFCCCC);
+    background: linear-gradient(0deg, #131313, #22272E);
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(48, 48, 48);
+    color: #ADBAC7;
     font-weight: 800;
     font-size: 3vw;
     padding-left: 50px;
@@ -36,22 +36,14 @@ h2 {
     margin-bottom: 0px;
 }
 
-h3 {
-    color: rgb(48, 48, 48);
-    font-weight: 500;
-    font-size: 20px;
-    padding-left: 50px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
 
 #navbar {
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: white;
+    background-color: #2D333B;
   }
 
 nav ul {  
@@ -77,30 +69,34 @@ a {
     border-radius: 3px;
     transition: background-color .3s ease-in-out;
     text-decoration: none;
+    color: #ADBAC7;
 }
 
 a:hover {
-    background-color: rgb(233, 233, 233);
+    background-color: #22272E;
 }
 
 
 .bio {
+    position: relative;
     border-radius: 10px;
     margin-top: 175;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 100px;
     padding-bottom: 20px;
-    background: white;
+    background: #2D333B;
 }
 
 .biopic {
     position: absolute;
-    border-color: white;
+    border-color: #2D333B;
     border-width: 5px;
     border-style: solid;
     margin-left: 100px;
     width: 175px;
     border-radius: 50%;
+    z-index: 1;
 }
 
 .sub {
@@ -112,5 +108,37 @@ a:hover {
     margin-right: 50px;
     font-size: 1.7vw;
     font-weight: 300;
+    color: #ADBAC7;
 }
+
+@media only screen and (max-width: 768px) {
+    .biopic {
+      width: 30%;
+      position: absolute;
+      display: block; 
+      margin-left: 30%;
+      margin-right: 30%;
+    }
+    .bio {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20%;
+        margin-top: 30%;
+    }
+    h1 {
+      font-size: 10vw;
+    }
+    h2 {
+      font-size: 6vw;
+    }
+    .sub {
+      font-size: 3vw;
+    }
+    .text {
+      font-size: 4vw;
+    }
+    li {
+      font-size: 4vw;
+    }
+  }
   
