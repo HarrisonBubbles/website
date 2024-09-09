@@ -64,3 +64,5 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+.hugo_build.lock

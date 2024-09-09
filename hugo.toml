@@ -1,0 +1,66 @@
+baseURL = 'https://bubalo.dev/'
+languageCode = 'en-us'
+title = 'Harris Bubalo'
+copyright = "© 2024 Harris Bubalo"
+theme = 'risotto'
+author = "Harris Bubalo"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "dracula"
+
+# Sidebar: about/bio
+[params.about]
+title = "harris bubalo"
+description = "Graduate student at the intersection of all things math, computers, and data."
+profile_image = "images/profile.jpg"
+# unicode/emoji logo:
+logo = "👨‍💻"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/HarrisonBubbles"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:harris@bubalo.us"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/harris-bubalo/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true

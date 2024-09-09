@@ -1,0 +1,3 @@
+[submodule "bubalo/themes/risotto"]
+	path = bubalo/themes/risotto
+	url = https://github.com/joeroe/risotto
