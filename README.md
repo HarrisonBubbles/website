@@ -1,1 +1,1 @@
-Visit my website [here.](www.bubalo.dev)
+Visit my website [here.](https://www.bubalo.dev)
