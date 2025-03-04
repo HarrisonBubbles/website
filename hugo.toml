@@ -1,7 +1,7 @@
 baseURL = 'https://bubalo.dev/'
 languageCode = 'en-us'
 title = 'Harris Bubalo'
-copyright = "© 2024 Harris Bubalo"
+copyright = "© 2025 Harris Bubalo"
 theme = 'risotto'
 author = "Harris Bubalo"
 DefaultContentLanguage = "en"
