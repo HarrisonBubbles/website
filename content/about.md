@@ -15,4 +15,4 @@ I am also a **huge** music fan. I love attending local concerts whenever I can a
 4. ***Just Got Back From the Discomfort We're Alright*** by Brave Little Abacus
 5. ***Weezer*** by Weezer
 
-My resume can be downloaded <a href="../Harris%20Bubalo%20Resume.pdf" download>here.</a>
+My resume can be downloaded [here.](../Harris%20Bubalo%20Resume.pdf)
